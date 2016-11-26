@@ -1,8 +1,7 @@
 #!/bin/bash
 # 执行 ./update_hosts.sh 后自动输入密码。
 
-echo $PWD
-PWD_ORI=$PWD
+PWD_ORI=$(dirname "$0")
 cd ../project/hosts/
 git pull origin master
 
