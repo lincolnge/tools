@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.aigo.launchctl.plist</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>{请填写路径，要绝对路径}</string>
+	</array>
+	<key>StartInterval</key>
+	<integer>86400</integer>
+	<key>StandardOutPath</key>
+	<string>{你的目录}/Documents/AutoMakeLog.log</string>
+	<key>StandardErrorPath</key>
+	<string>{你的目录}/Documents/AutoMakeLog.err</string>
+</dict>
+</plist>
